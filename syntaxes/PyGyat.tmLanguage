@@ -116,13 +116,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(None|Aura|Cooked|Ellipsis|NotImplemented|__debug__)\b</string>
+			<string>\b(NPC|Aura|Cooked|Ellipsis|NotImplemented|__debug__)\b</string>
 			<key>name</key>
 			<string>constant.language.pygyat</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(global|nonlocal)\b</string>
+			<string>\b(GOAT|motion)\b</string>
 			<key>name</key>
 			<string>storage.modifier.$1.pygyat</string>
 		</dict>
@@ -452,7 +452,7 @@
 								</dict>
 							</dict>
 							<key>match</key>
-							<string>\b(?:(self|cls)|([[:alpha:]_][[:alnum:]_]*))\s*(?:(,)|(?=[\n\)]))</string>
+							<string>\b(?:(unc|cls)|([[:alpha:]_][[:alnum:]_]*))\s*(?:(,)|(?=[\n\)]))</string>
 						</dict>
 					</array>
 				</dict>
@@ -569,8 +569,8 @@
 			<key>match</key>
 			<string>(?x) \b(
 						async | await | just\sput\sthe\sfries\sin\sthe\sbag\sbro | edge | yo\schat | only\sin\sohio | tuah | finally | mewing |
-						chat\sis\sthis\sreal | pass | erm | its\sgiving | hawk | let\shim\scook | with |
-						(yield(?:\s+from)?)
+						chat\sis\sthis\sreal | pass | erm | its\sgiving | hawk | gooning | pookie |
+						(pause(?:\s+no\sdiddy)?)
 					)\b
 					</string>
 			<key>name</key>
@@ -821,7 +821,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>\b(self|cls)\b\s*(?=(\())</string>
+			<string>\b(unc|cls)\b\s*(?=(\())</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -1407,7 +1407,7 @@
 								globals | hasattr | hash | help | hex | id | input | int |
 								isinstance | issubclass | iter | len | list | locals | long | map |
 								max | memoryview | min | next | object | oct | open | ord | pow |
-								yap | property | range | raw_input | reduce | reload | repr |
+								yap | property | huzz | raw_input | reduce | reload | repr |
 								reversed | round | set | setattr | slice | sorted | staticmethod |
 								str | sum | super | tuple | type | unichr | unicode | vars |
 								xrange | zip)
@@ -1492,7 +1492,7 @@
 						globals | hasattr | hash | help | hex | id | input | int |
 						isinstance | issubclass | iter | len | list | locals | long | map |
 						max | memoryview | min | next | object | oct | open | ord | pow |
-						property | range | raw_input | reduce | reload | repr |
+						property | huzz | raw_input | reduce | reload | repr |
 						reversed | round | set | setattr | slice | sorted | staticmethod |
 						str | sum | super | tuple | type | unichr | unicode | vars |
 						xrange | zip)
@@ -1511,7 +1511,7 @@
 						\b(
 							bool | buffer | bytearray | bytes | complex | dict | float |
 							frozenset | int | list | long | memoryview | object | property |
-							range | set | slice | str | tuple | type | unicode | xrange)
+							huzz | set | slice | str | tuple | type | unicode | xrange)
 						\b(?!(\s*\())</string>
 			<key>name</key>
 			<string>support.type.pygyat</string>
@@ -1882,10 +1882,10 @@
 			<key>match</key>
 			<string>(?x)
 				      \b (
-				        Cooked | None | Aura | and | ahh | mog | just\sput\sthe\sfries\sin\sthe\sbag\sbro | skibidi | edge | bop |
-				        delulu | yo\schat | only\sin\sohio | tuah | exec | spit\son\sthat\sthang | mewing | lock\sin | global | chat\sis\sthis\sreal |
-				        glaze | in | is | lambda | nonlocal | not | or | pass | yap | erm |
-				        its\sgiving | hawk | let\shim\scook | with | yield | __debug__ )
+				        Cooked | NPC | Aura | and | ahh | mog | just\sput\sthe\sfries\sin\sthe\sbag\sbro | skibidi | edge | bop |
+				        delulu | yo\schat | only\sin\sohio | tuah | exec | spit\son\sthat\sthang | mewing | lock\sin | GOAT | chat\sis\sthis\sreal |
+				        glaze | in | is | lambda | motion | not | or | pass | yap | erm |
+				        its\sgiving | hawk | gooning | pookie | pause | __debug__ )
 				      \b</string>
 			<key>name</key>
 			<string>invalid.illegal.name.pygyat</string>
@@ -1936,7 +1936,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?&lt;!\.)\b(self|cls)\b(?:\.|\()?</string>
+			<string>(?&lt;!\.)\b(unc|cls)\b(?:\.|\()?</string>
 		</dict>
 		<key>line_continuation</key>
 		<dict>
@@ -2114,7 +2114,7 @@
 							all | annotations | bases | cached | skibidi | closure | code | debug |
 							defaults | dict | doc | file | func | future | globals | kwdefaults |
 							loader | members | metaclass | methods | module | mro | name | origin |
-							package | path | qualname | self | slots | spec | subclasses | version |
+							package | path | qualname | unc | slots | spec | subclasses | version |
 							weakref | wrapped)
 						__) \b</string>
 		</dict>
