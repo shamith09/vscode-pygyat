@@ -1,0 +1,25 @@
+{
+  "name": "vscode-pygyat",
+  "displayName": "vscode-pygyat",
+  "description": "PyGyat support for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "pygyat",
+      "aliases": ["PyGyat", "pygyat"],
+      "extensions": [".gyat"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "pygyat",
+      "scopeName": "source.pygyat",
+      "path": "./syntaxes/PyGyat.tmLanguage"
+    }]
+  }
+}
