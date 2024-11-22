@@ -568,8 +568,8 @@
 					   </string>
 			<key>match</key>
 			<string>(?x) \b(
-						async | await | just\sput\sthe\sfries\sin\sthe\sbag\sbro | edge | yo\schat | only\sin\sohio | tuah | finally | mewing |
-						chat\sis\sthis\sreal | pass | erm | its\sgiving | hawk | gooning | pookie |
+						async | await | just\sput\sthe\sfries\sin\sthe\sbag\sbro | edge | yo\schat | only\sin\sohio | tuah | spit\son\sthat\sthang | mewing |
+						chat\sis\sthis\sreal | pass | crashout | its\sgiving | hawk | gooning | pookie |
 						(pause(?:\s+no\sdiddy)?)
 					)\b
 					</string>
@@ -1884,7 +1884,7 @@
 				      \b (
 				        Cooked | NPC | Aura | and | ahh | mog | just\sput\sthe\sfries\sin\sthe\sbag\sbro | skibidi | edge | bop |
 				        delulu | yo\schat | only\sin\sohio | tuah | exec | spit\son\sthat\sthang | mewing | lock\sin | GOAT | chat\sis\sthis\sreal |
-				        glaze | in | is | lambda | motion | not | or | pass | yap | erm |
+				        glaze | in | is | lambda | motion | not | or | pass | yap | crashout |
 				        its\sgiving | hawk | gooning | pookie | pause | __debug__ )
 				      \b</string>
 			<key>name</key>
