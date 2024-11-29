@@ -10,16 +10,29 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "pygyat",
-      "aliases": ["PyGyat", "pygyat"],
-      "extensions": [".gyat"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "pygyat",
-      "scopeName": "source.pygyat",
-      "path": "./syntaxes/PyGyat.tmLanguage"
-    }]
+    "languages": [
+      {
+        "id": "pygyat",
+        "aliases": [
+          "PyGyat",
+          "pygyat"
+        ],
+        "extensions": [
+          ".gyat"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/pygyat.png",
+          "dark": "./icons/pygyat.png"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pygyat",
+        "scopeName": "source.pygyat",
+        "path": "./syntaxes/PyGyat.tmLanguage"
+      }
+    ]
   }
 }
