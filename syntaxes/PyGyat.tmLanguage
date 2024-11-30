@@ -144,7 +144,7 @@
 			<key>comment</key>
 			<string>keywords that do not fit into other groups.</string>
 			<key>match</key>
-			<string>\b(mog|delulu)\b</string>
+			<string>\b(sus|delulu)\b</string>
 			<key>name</key>
 			<string>keyword.other.pygyat</string>
 		</dict>
@@ -569,7 +569,7 @@
 			<key>match</key>
 			<string>(?x) \b(
 						async | await | just\sput\sthe\sfries\sin\sthe\sbag\sbro | edge | yo\schat | only\sin\sohio | tuah | spit\son\sthat\sthang | mewing |
-						chat\sis\sthis\sreal | pass | crashout | its\sgiving | hawk | let\shim\scook | pookie |
+						chat\sis\sthis\sreal | pluh | crashout | its\sgiving | hawk | let\shim\scook | pookie |
 						(pause(?:\s+no\sdiddy)?)
 					)\b
 					</string>
@@ -1882,9 +1882,9 @@
 			<key>match</key>
 			<string>(?x)
 				      \b (
-				        Cooked | NPC | Aura | and | ahh | mog | just\sput\sthe\sfries\sin\sthe\sbag\sbro | skibidi | edge | bop |
+				        Cooked | NPC | Aura | and | ahh | sus | just\sput\sthe\sfries\sin\sthe\sbag\sbro | skibidi | edge | bop |
 				        delulu | yo\schat | only\sin\sohio | tuah | exec | spit\son\sthat\sthang | mewing | lock\sin | GOAT | chat\sis\sthis\sreal |
-				        glaze | diddy | is | lambda | motion | not | or | pass | yap | crashout |
+				        glaze | diddy | is | lambda | motion | not | or | pluh | yap | crashout |
 				        its\sgiving | hawk | let\shim\scook | pookie | pause | __debug__ )
 				      \b</string>
 			<key>name</key>
