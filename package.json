@@ -7,6 +7,7 @@
   "engines": {
     "vscode": "^1.95.0"
   },
+  "icon": "./icons/pygyat.png",
   "repository": "https://github.com/shamith09/vscode-pygyat",
   "readme": "./README.md",
   "categories": [
