@@ -2,7 +2,7 @@
   "name": "vscode-pygyat",
   "displayName": "vscode-pygyat",
   "description": "PyGyat support for VS Code",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "publisher": "shamith-pasula",
   "engines": {
     "vscode": "^1.95.0"
@@ -19,7 +19,7 @@
         "id": "pygyat",
         "aliases": [
           "PyGyat",
-          "pygyat"
+          "pygyat"  
         ],
         "extensions": [
           ".gyat"
